@@ -1,0 +1,291 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AwaitKit (5.0.1):
+    - PromiseKit (~> 6)
+  - DKImagePickerController/Core (4.2.2):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.2.2)
+  - DKImagePickerController/PhotoGallery (4.2.2):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.2.2)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - EllipticCurveKeyPair (2.0-beta1)
+  - Groot (3.0.1):
+    - Groot/Swift (= 3.0.1)
+  - Groot/Swift (3.0.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MCSwipeTableViewCell (2.1.4)
+  - "NSDate+Helper (1.0.4)"
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - OHHTTPStubs/Swift (9.0.0):
+    - OHHTTPStubs/Default
+  - OpenPGP (1.0.5):
+    - OpenSSL
+  - OpenSSL (1.0.210)
+  - PMAuthentication (1.3.2):
+    - PMCommon (>= 1.1.2)
+    - PMCrypto
+  - PMAuthentication/Tests (1.3.2):
+    - OHHTTPStubs/Swift
+    - PMCommon (>= 1.1.2)
+    - PMCrypto
+  - PMChallenge (0.0.2)
+  - PMCommon (1.2.0):
+    - PMCommon/Default (= 1.2.0)
+  - PMCommon/APIClient (1.2.0):
+    - PMCommon/Networking
+  - PMCommon/Default (1.2.0):
+    - PMCommon/APIClient
+    - PMCommon/Networking
+    - PMCommon/Services
+    - PMCommon/SRP
+  - PMCommon/Networking (1.2.0):
+    - AFNetworking (~> 4.0)
+    - AwaitKit (~> 5.0.0)
+    - PromiseKit (~> 6.0)
+  - PMCommon/Services (1.2.0):
+    - PMCommon/APIClient
+    - TrustKit
+  - PMCommon/SRP (1.2.0)
+  - PMCommon/Tests (1.2.0):
+    - OHHTTPStubs/Swift
+  - PMCoreTranslation (1.0.0)
+  - PMCrypto (2.1.7)
+  - PMKeymaker (1.2.3):
+    - EllipticCurveKeyPair
+    - PMCrypto
+  - PMLog (1.0.0)
+  - PMPayments (1.0.1):
+    - PMAuthentication
+    - PMCommon
+    - PMCoreTranslation
+    - PMLog
+    - ReachabilitySwift
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - Sentry (5.2.2):
+    - Sentry/Core (= 5.2.2)
+  - Sentry/Core (5.2.2)
+  - SwiftyGif (5.4.0)
+  - SWRevealViewController (2.3.0)
+  - TrustKit (1.7.0)
+  - "UIColor+Hex (1.0.1)":
+    - "UIColor+Hex/NSColor (= 1.0.1)"
+    - "UIColor+Hex/UIColor (= 1.0.1)"
+  - "UIColor+Hex/UIColor (1.0.1)"
+
+DEPENDENCIES:
+  - AFNetworking (= 4.0.1)
+  - AwaitKit (~> 5.0.0)
+  - DKImagePickerController/PhotoGallery (~> 4.2.0)
+  - EllipticCurveKeyPair (from `https://github.com/abjurato/EllipticCurveKeyPair.git`, tag `1.0.4`)
+  - Groot (= 3.0.1)
+  - Masonry (= 1.1.0)
+  - MBProgressHUD (= 1.1.0)
+  - MCSwipeTableViewCell (~> 2.1.4)
+  - "NSDate+Helper (from `https://github.com/ProtonMail/nsdate-helper.git`, branch `master`)"
+  - OHHTTPStubs/Swift (= 9.0.0)
+  - OpenPGP (from `../OpenPGP`)
+  - "PMAuthentication (from `git@gitlab.protontech.ch:apple/shared/pmauthentication.git`, branch `develop`)"
+  - "PMAuthentication/Tests (from `git@gitlab.protontech.ch:apple/shared/pmauthentication.git`, branch `develop`)"
+  - "PMChallenge (from `git@gitlab.protontech.ch:apple/shared/pmchallenge.git`, tag `0.0.3`)"
+  - PMCommon (from `../Networking`)
+  - PMCommon/Tests (from `../Networking`)
+  - "PMCoreTranslation (from `git@gitlab.protontech.ch:apple/shared/pmcoretranslation.git`, branch `develop`)"
+  - "PMCrypto (from `git@gitlab.protontech.ch:apple/shared/pmcrypto.git`, tag `2.1.7`)"
+  - "PMKeymaker (from `git@gitlab.protontech.ch:apple/shared/pmkeymaker.git`, branch `develop`)"
+  - "PMLog (from `git@gitlab.protontech.ch:apple/shared/pmlog.git`, branch `master`)"
+  - "PMPayments (from `git@gitlab.protontech.ch:apple/shared/pmpayments.git`, branch `develop`)"
+  - PromiseKit (~> 6.0)
+  - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `5.2.2`)
+  - SWRevealViewController (= 2.3.0)
+  - TrustKit (from `https://github.com/ProtonMail/TrustKit.git`, branch `master`)
+  - "UIColor+Hex (= 1.0.1)"
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AwaitKit
+    - DKImagePickerController
+    - DKPhotoGallery
+    - Groot
+    - Masonry
+    - MBProgressHUD
+    - MCSwipeTableViewCell
+    - OHHTTPStubs
+    - OpenSSL
+    - PromiseKit
+    - ReachabilitySwift
+    - SDWebImage
+    - SwiftyGif
+    - SWRevealViewController
+    - "UIColor+Hex"
+
+EXTERNAL SOURCES:
+  EllipticCurveKeyPair:
+    :git: https://github.com/abjurato/EllipticCurveKeyPair.git
+    :tag: 1.0.4
+  "NSDate+Helper":
+    :branch: master
+    :git: https://github.com/ProtonMail/nsdate-helper.git
+  OpenPGP:
+    :path: "../OpenPGP"
+  PMAuthentication:
+    :branch: develop
+    :git: "git@gitlab.protontech.ch:apple/shared/pmauthentication.git"
+  PMChallenge:
+    :git: "git@gitlab.protontech.ch:apple/shared/pmchallenge.git"
+    :tag: 0.0.3
+  PMCommon:
+    :path: "../Networking"
+  PMCoreTranslation:
+    :branch: develop
+    :git: "git@gitlab.protontech.ch:apple/shared/pmcoretranslation.git"
+  PMCrypto:
+    :git: "git@gitlab.protontech.ch:apple/shared/pmcrypto.git"
+    :tag: 2.1.7
+  PMKeymaker:
+    :branch: develop
+    :git: "git@gitlab.protontech.ch:apple/shared/pmkeymaker.git"
+  PMLog:
+    :branch: master
+    :git: "git@gitlab.protontech.ch:apple/shared/pmlog.git"
+  PMPayments:
+    :branch: develop
+    :git: "git@gitlab.protontech.ch:apple/shared/pmpayments.git"
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 5.2.2
+  TrustKit:
+    :branch: master
+    :git: https://github.com/ProtonMail/TrustKit.git
+
+CHECKOUT OPTIONS:
+  EllipticCurveKeyPair:
+    :git: https://github.com/abjurato/EllipticCurveKeyPair.git
+    :tag: 1.0.4
+  "NSDate+Helper":
+    :commit: 43d1301b1449d9d98f6ae1f3e2c049b158885758
+    :git: https://github.com/ProtonMail/nsdate-helper.git
+  PMAuthentication:
+    :commit: 16949e15b45da02a74972dbda6370372037f51c6
+    :git: "git@gitlab.protontech.ch:apple/shared/pmauthentication.git"
+  PMChallenge:
+    :git: "git@gitlab.protontech.ch:apple/shared/pmchallenge.git"
+    :tag: 0.0.3
+  PMCoreTranslation:
+    :commit: e81caa11df4a99b3b4a9664d0c31b0360abe804b
+    :git: "git@gitlab.protontech.ch:apple/shared/pmcoretranslation.git"
+  PMCrypto:
+    :git: "git@gitlab.protontech.ch:apple/shared/pmcrypto.git"
+    :tag: 2.1.7
+  PMKeymaker:
+    :commit: 97defd9cd70e83c67e7f9ad2b0c9ee93c55a8416
+    :git: "git@gitlab.protontech.ch:apple/shared/pmkeymaker.git"
+  PMLog:
+    :commit: 2f7826833a4eb974c5b0b44a3d938e8019ec6b1a
+    :git: "git@gitlab.protontech.ch:apple/shared/pmlog.git"
+  PMPayments:
+    :commit: 47edd7def09a7e26aa608b157ace7a4486e4acc1
+    :git: "git@gitlab.protontech.ch:apple/shared/pmpayments.git"
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 5.2.2
+  TrustKit:
+    :commit: 838fba789e01c9cabff77acea3fb7135f71a220f
+    :git: https://github.com/ProtonMail/TrustKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AwaitKit: a6d0b0b6d603cedda8ef1c1c249b8d6730359917
+  DKImagePickerController: 4a3e7948a848c4348e600b3fe5ce41478835fa10
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  EllipticCurveKeyPair: 74c4c02087041d25e6ff17fb11412b163be80198
+  Groot: a668afbcf0be88d76c0a26c714cfa4638ceaca66
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MCSwipeTableViewCell: 1b303e16c3a26b1982f3a68386e9b8c5fc8344c3
+  "NSDate+Helper": 78f517ac1c67914096433466fa7d20b812b9d86c
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  OpenPGP: b34d036b76e49bbcfe29f38b61bb5664ce83266a
+  OpenSSL: 246ffb948e9d56466727fd318134af35f5aa764e
+  PMAuthentication: 4e1a422232304311f34a7651a5b348a7782c99bf
+  PMChallenge: e1545bb99e3b668f7b4af62aea193d11f1039d3b
+  PMCommon: 144fb3aba220fb65ee769c69486b226d2dd73a37
+  PMCoreTranslation: 221df023e0a50c73bdadd07ce8917e053f69a859
+  PMCrypto: f6b8e07183e34ca31e66e93a4d15fde2ee903816
+  PMKeymaker: 41484527ae0683d08361a0c09023bed5dc8c367b
+  PMLog: 872e7cf1c22a2a4ae6ba176de3a7ae0e12ab1b6f
+  PMPayments: a8cd7749328c3155f8de959772e7aae76109b14b
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  Sentry: 8fa58a051237554f22507fb483b9a1de0171a2dc
+  SwiftyGif: 5d4af95df24caf1c570dbbcb32a3b8a0763bc6d7
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  TrustKit: 3fb011102271b79f7e3742bc2cfc54bb7193ca74
+  "UIColor+Hex": 9fee91bb8e19f17dd40a79ae1e98949a6a84489d
+
+PODFILE CHECKSUM: 8054ec47c4b8769e543006bc0ec995583103f5c5
+
+COCOAPODS: 1.10.0
